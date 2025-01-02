@@ -130,18 +130,6 @@ For best results:
 - Keep queries clear and specific
 - Use comparison terms like "Compare with" or "Compare to" for multiple companies
 
-
-## 📚 Notebook Structure
-
-1. Imports and Setup
-2. Date Handling Functions
-3. Prompt Template
-4. Main Processing Function
-5. JSON Conversion Function
-6. Main Application Class
-7. Example Usage
-8. Interactive Interface
-
 ## ⚠️ Error Handling
 
 The application handles various error scenarios:
