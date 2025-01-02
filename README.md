@@ -21,7 +21,7 @@ A Python-based application that leverages the Groq LLM API to convert natural la
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/metrics-query-processor.git
+git clone https://github.com/Shorya-Dixit/LLM-Powered-Metrics-Query-Processor.git
 cd metrics-query-processor
 ```
 
@@ -36,16 +36,22 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-3. **Install dependencies**
+3. **Select Kernel in VS Code**
+- Open your .ipynb file
+- Click on "Select Kernel" in the top-right corner
+- Click "Python Environments..."
+- Select your virtual environment (`venv`)
+  
+4. **Install dependencies**
 ```bash
 pip install groq python-dateutil 
 ```
 
-4. **Configure API Key**
+5. **Configure API Key**
 1. Visit [Groq Console](https://console.groq.com/)
 2. Sign up/Login and navigate to API Keys section
 3. Generate a new API key
-4. Replace `your_groq_api_key_here` in Cell 1 with your actual API key
+4. Replace `groq_api_key` in Cell 1 with your actual API key
 
 ## Running the Application
 
